@@ -1,4 +1,4 @@
-//package core;
+//package ro.javatraining.jobfinder.core;
 //
 //import org.springframework.http.HttpStatus;
 //import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package core.dto;
+package ro.javatraining.jobfinder.core.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

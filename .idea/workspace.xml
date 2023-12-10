@@ -111,13 +111,13 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_swagger_ui_5_2_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/core/ApplicationConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/core/ApplicationExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/core/dto/ErrorDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JobFinder/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/core/ApplicationConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/core/ApplicationConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/core/ApplicationExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/core/ApplicationExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/core/dto/ErrorDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/core/dto/ErrorDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JobFinder/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -150,6 +150,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/.facultate/Proiect munca/Job-finder/JobFinder/src/main/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -177,7 +181,7 @@
       <updated>1702240683864</updated>
       <workItem from="1702240685397" duration="177000" />
       <workItem from="1702243281910" duration="22000" />
-      <workItem from="1702243354199" duration="280000" />
+      <workItem from="1702243354199" duration="353000" />
     </task>
     <servers />
   </component>
