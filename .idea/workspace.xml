@@ -111,6 +111,13 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_swagger_ui_5_2_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobApplicants/JobApplicant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobApplications/JobApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobCategories/JobCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobListings/JobListing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/recruiters/Recruiter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/users/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/users/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -124,6 +131,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -181,7 +195,7 @@
       <updated>1702240683864</updated>
       <workItem from="1702240685397" duration="177000" />
       <workItem from="1702243281910" duration="22000" />
-      <workItem from="1702243354199" duration="353000" />
+      <workItem from="1702243354199" duration="1475000" />
     </task>
     <servers />
   </component>
