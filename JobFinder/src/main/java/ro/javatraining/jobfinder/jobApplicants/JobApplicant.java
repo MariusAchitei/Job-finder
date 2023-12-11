@@ -13,7 +13,7 @@ public class JobApplicant {
     private Long id;
 
     @OneToOne
-    @JoinColumn(name = "userID", referencedColumnName = "userID")
+    @JoinColumn(name = "user_id", referencedColumnName = "id")
     private User user;
     @Column(name = "first_name",nullable = false)
     private String firstName;
