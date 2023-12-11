@@ -5,7 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import ro.javatraining.jobfinder.jobCategories.JobCategory;
+import ro.javatraining.jobfinder.jobCategory.JobCategory;
 import ro.javatraining.jobfinder.recruiters.Recruiter;
 
 import java.util.Date;

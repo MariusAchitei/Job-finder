@@ -5,17 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d9e2d93-bb81-42bf-a515-4927c3cba79f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobApplicants/JobApplicantRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/users/UserManagementImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/users/api/RegisterUserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/users/api/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/users/api/UserManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_classgraph_classgraph_4_8_83.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_bean_validators_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_boot_starter_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_core_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_data_rest_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_oas_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_schema_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spi_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_web_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_webflux_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_spring_webmvc_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger2_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_common_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_annotations_2_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_models_2_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_annotations_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_swagger_models_1_5_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mapstruct_mapstruct_1_3_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_core_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_plugin_spring_plugin_metadata_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobApplicants/JobApplicantController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobApplicants/JobApplicantManagementImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobApplicants/api/JobApplicantDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobApplicants/api/JobApplicantManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/users/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JobFinder/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobApplicants/JobApplicant.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobApplicants/JobApplicant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/users/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/users/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/users/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/users/UserRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +70,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -89,7 +113,8 @@
       <workItem from="1702240685397" duration="177000" />
       <workItem from="1702243281910" duration="22000" />
       <workItem from="1702243354199" duration="2062000" />
-      <workItem from="1702245439966" duration="2023000" />
+      <workItem from="1702245439966" duration="2129000" />
+      <workItem from="1702327665521" duration="2778000" />
     </task>
     <servers />
   </component>

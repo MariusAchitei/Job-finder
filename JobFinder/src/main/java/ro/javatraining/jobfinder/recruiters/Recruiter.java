@@ -2,7 +2,7 @@ package ro.javatraining.jobfinder.recruiters;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import ro.javatraining.jobfinder.users.User;
+import ro.javatraining.jobfinder.user.User;
 
 @Entity
 @Table(name = "recruiter")

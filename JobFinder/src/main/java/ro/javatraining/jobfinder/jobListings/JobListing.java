@@ -1,7 +1,7 @@
 package ro.javatraining.jobfinder.jobListings;
 
 import jakarta.persistence.*;
-import ro.javatraining.jobfinder.jobCategories.JobCategory;
+import ro.javatraining.jobfinder.jobCategory.JobCategory;
 import ro.javatraining.jobfinder.recruiters.Recruiter;
 
 import java.util.Date;

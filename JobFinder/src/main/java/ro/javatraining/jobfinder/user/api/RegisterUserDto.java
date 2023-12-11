@@ -1,4 +1,4 @@
-package ro.javatraining.jobfinder.users.api;
+package ro.javatraining.jobfinder.user.api;
 
 import jakarta.validation.constraints.Email;
 import lombok.*;
@@ -7,11 +7,12 @@ import lombok.*;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class UserDto {
-
+public class RegisterUserDto {
     private long id;
     @NonNull
     private String username;
+    @NonNull
+    private String password;
     @Email
     private String email;
     @NonNull
