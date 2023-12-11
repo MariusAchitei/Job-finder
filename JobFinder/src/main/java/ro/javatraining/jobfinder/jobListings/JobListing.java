@@ -11,7 +11,7 @@ import java.util.Date;
 public class JobListing {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "job_id")
+    @Column(name = "id")
     private Long id;
 
     @ManyToOne

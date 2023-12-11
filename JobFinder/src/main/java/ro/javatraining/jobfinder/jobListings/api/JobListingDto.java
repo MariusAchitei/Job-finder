@@ -26,6 +26,7 @@ public class JobListingDto {
     private String location;
     @NotBlank
     private String salaryRange;
+
     private Date postedDate;
     private Date deadline;
     private JobCategory jobCategory;
