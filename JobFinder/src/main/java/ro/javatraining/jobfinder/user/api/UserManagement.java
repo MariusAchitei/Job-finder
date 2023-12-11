@@ -1,7 +1,4 @@
-package ro.javatraining.jobfinder.users.api;
-
-import ro.javatraining.jobfinder.users.api.RegisterUserDto;
-import ro.javatraining.jobfinder.users.api.UserDto;
+package ro.javatraining.jobfinder.user.api;
 
 import java.util.Collection;
 

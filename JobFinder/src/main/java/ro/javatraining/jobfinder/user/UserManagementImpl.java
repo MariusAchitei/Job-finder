@@ -1,12 +1,12 @@
-package ro.javatraining.jobfinder.users;
+package ro.javatraining.jobfinder.user;
 
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
-import ro.javatraining.jobfinder.users.api.RegisterUserDto;
-import ro.javatraining.jobfinder.users.api.UserDto;
-import ro.javatraining.jobfinder.users.api.UserManagement;
+import ro.javatraining.jobfinder.user.api.RegisterUserDto;
+import ro.javatraining.jobfinder.user.api.UserDto;
+import ro.javatraining.jobfinder.user.api.UserManagement;
 
 import java.util.Collection;
 

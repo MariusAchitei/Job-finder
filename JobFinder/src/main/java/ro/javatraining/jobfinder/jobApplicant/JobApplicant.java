@@ -1,8 +1,8 @@
-package ro.javatraining.jobfinder.jobApplicants;
+package ro.javatraining.jobfinder.jobApplicant;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import ro.javatraining.jobfinder.users.User;
+import ro.javatraining.jobfinder.user.User;
 
 @Entity
 @Table(name = "job_applicants")
