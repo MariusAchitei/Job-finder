@@ -10,7 +10,7 @@ import ro.javatraining.jobfinder.users.User;
 public class JobApplicant {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long applicantID;
+    private Long id;
 
     @OneToOne
     @JoinColumn(name = "userID", referencedColumnName = "userID")
