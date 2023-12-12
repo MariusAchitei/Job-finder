@@ -1,5 +1,6 @@
-package ro.javatraining.jobfinder.jobListings.api;
+package ro.javatraining.jobfinder.jobListing.api;
 
+import java.util.Collection;
 import java.util.List;
 
 public interface JobListingManagement {
@@ -7,7 +8,7 @@ public interface JobListingManagement {
 
     JobListingDto getById(Long id);
 
-    List<JobListingDto> getAll();
+    Collection<JobListingDto> getAll();
 
     void update(Long id, JobListingDto jobListingDto);
 

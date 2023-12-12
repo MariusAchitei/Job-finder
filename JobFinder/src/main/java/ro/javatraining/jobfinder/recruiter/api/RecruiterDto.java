@@ -1,6 +1,5 @@
-package ro.javatraining.jobfinder.recruiters.api;
+package ro.javatraining.jobfinder.recruiter.api;
 
-import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

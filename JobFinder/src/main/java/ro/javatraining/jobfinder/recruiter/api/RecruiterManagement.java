@@ -1,7 +1,6 @@
-package ro.javatraining.jobfinder.recruiters.api;
+package ro.javatraining.jobfinder.recruiter.api;
 
 import org.springframework.validation.annotation.Validated;
-import ro.javatraining.jobfinder.recruiters.Recruiter;
 
 import java.util.Collection;
 

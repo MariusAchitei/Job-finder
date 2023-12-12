@@ -1,12 +1,14 @@
-package ro.javatraining.jobfinder.jobListings;
+package ro.javatraining.jobfinder.jobListing;
 
 import jakarta.persistence.*;
+import lombok.Data;
 import ro.javatraining.jobfinder.jobCategory.JobCategory;
-import ro.javatraining.jobfinder.recruiters.Recruiter;
+import ro.javatraining.jobfinder.recruiter.Recruiter;
 
 import java.util.Date;
 
 @Entity
+@Data
 @Table(name = "job_listing")
 public class JobListing {
     @Id
@@ -41,4 +43,8 @@ public class JobListing {
     @ManyToOne
     @JoinColumn(name = "job_category_id", nullable = false)
     private JobCategory jobCategory;
+
+    public JobListing(){
+
+    }
 }
