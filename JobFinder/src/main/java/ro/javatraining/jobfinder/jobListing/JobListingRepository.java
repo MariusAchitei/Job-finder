@@ -1,4 +1,4 @@
-package ro.javatraining.jobfinder.jobListings;
+package ro.javatraining.jobfinder.jobListing;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

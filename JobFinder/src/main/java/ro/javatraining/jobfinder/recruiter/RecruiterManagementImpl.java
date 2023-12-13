@@ -1,10 +1,10 @@
-package ro.javatraining.jobfinder.recruiters;
+package ro.javatraining.jobfinder.recruiter;
 
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
-import ro.javatraining.jobfinder.recruiters.api.RecruiterDto;
-import ro.javatraining.jobfinder.recruiters.api.RecruiterManagement;
+import ro.javatraining.jobfinder.recruiter.api.RecruiterDto;
+import ro.javatraining.jobfinder.recruiter.api.RecruiterManagement;
 
 import java.util.Collection;
 

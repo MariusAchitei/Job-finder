@@ -1,4 +1,4 @@
-package ro.javatraining.jobfinder.jobListings.api;
+package ro.javatraining.jobfinder.jobListing.api;
 
 import java.util.List;
 

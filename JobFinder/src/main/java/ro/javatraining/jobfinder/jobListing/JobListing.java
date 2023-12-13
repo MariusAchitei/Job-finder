@@ -1,8 +1,8 @@
-package ro.javatraining.jobfinder.jobListings;
+package ro.javatraining.jobfinder.jobListing;
 
 import jakarta.persistence.*;
 import ro.javatraining.jobfinder.jobCategory.JobCategory;
-import ro.javatraining.jobfinder.recruiters.Recruiter;
+import ro.javatraining.jobfinder.recruiter.Recruiter;
 
 import java.util.Date;
 
@@ -14,9 +14,8 @@ public class JobListing {
     @Column(name = "id")
     private Long id;
 
-    @ManyToOne
-    @JoinColumn(name = "recruiter_id", nullable = false)
-    private Recruiter recruiter;
+    @Column(name = "recruiter_id", nullable = false)
+    private Long recruiterId;
 
     @Column(name = "title", nullable = false)
     private String title;
@@ -38,7 +37,6 @@ public class JobListing {
     @Temporal(TemporalType.TIMESTAMP)
     private Date deadline;
 
-    @ManyToOne
-    @JoinColumn(name = "job_category_id", nullable = false)
-    private JobCategory jobCategory;
+    @Column(name = "job_category_id", nullable = false)
+    private Long jobCategoryId;
 }

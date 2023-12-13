@@ -1,4 +1,4 @@
-package ro.javatraining.jobfinder.recruiters;
+package ro.javatraining.jobfinder.recruiter;
 
 import jakarta.persistence.*;
 import lombok.Data;
@@ -13,9 +13,8 @@ public class Recruiter {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne
-    @JoinColumn(name = "user_id", nullable = false)
-    private User user;
+    @Column(name = "user_id", nullable = false)
+    private Long userId;
 
     @Column(name = "company_name", nullable = false)
     private String companyName;

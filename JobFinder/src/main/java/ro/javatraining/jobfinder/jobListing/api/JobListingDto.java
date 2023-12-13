@@ -1,4 +1,4 @@
-package ro.javatraining.jobfinder.jobListings.api;
+package ro.javatraining.jobfinder.jobListing.api;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
@@ -6,7 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import ro.javatraining.jobfinder.jobCategory.JobCategory;
-import ro.javatraining.jobfinder.recruiters.Recruiter;
+import ro.javatraining.jobfinder.recruiter.Recruiter;
 
 import java.util.Date;
 

@@ -16,13 +16,11 @@ public class JobApplication {
         @GeneratedValue(strategy = GenerationType.IDENTITY)
         private Long id;
 
-        @ManyToOne
-        @JoinColumn(name = "job_posting_id")
-        private JobListing jobListing;
+        @Column(name = "job_listing_id")
+        private Long jobListingId;
 
-        @ManyToOne
-        @JoinColumn(name = "job_applicant_id")
-        private JobApplicant jobApplicant;
+        @Column(name = "job_applicant_id")
+        private Long jobApplicantId;
 
         @Column(name = "application_date")
         private Date applicationDate;

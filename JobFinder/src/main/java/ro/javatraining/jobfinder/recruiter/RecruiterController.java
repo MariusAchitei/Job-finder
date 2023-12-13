@@ -1,11 +1,11 @@
-package ro.javatraining.jobfinder.recruiters;
+package ro.javatraining.jobfinder.recruiter;
 
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-import ro.javatraining.jobfinder.recruiters.api.RecruiterDto;
-import ro.javatraining.jobfinder.recruiters.api.RecruiterManagement;
+import ro.javatraining.jobfinder.recruiter.api.RecruiterDto;
+import ro.javatraining.jobfinder.recruiter.api.RecruiterManagement;
 
 import java.util.Collection;
 
