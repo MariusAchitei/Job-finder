@@ -1,12 +1,14 @@
 package ro.javatraining.jobfinder.jobListing;
 
 import jakarta.persistence.*;
+import lombok.Data;
 import ro.javatraining.jobfinder.jobCategory.JobCategory;
 import ro.javatraining.jobfinder.recruiter.Recruiter;
 
 import java.util.Date;
 
 @Entity
+@Data
 @Table(name = "job_listing")
 public class JobListing {
     @Id
@@ -39,4 +41,8 @@ public class JobListing {
 
     @Column(name = "job_category_id", nullable = false)
     private Long jobCategoryId;
+
+    public JobListing(){
+
+    }
 }

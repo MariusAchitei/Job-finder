@@ -11,7 +11,7 @@ import java.util.Collection;
 
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("recruiters")
+@RequestMapping("recruiter")
 public class RecruiterController {
     private final RecruiterManagement recruiterManagement;
 

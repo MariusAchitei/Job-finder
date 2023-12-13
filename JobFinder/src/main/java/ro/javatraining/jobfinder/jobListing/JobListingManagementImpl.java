@@ -6,7 +6,8 @@ import org.springframework.stereotype.Service;
 import ro.javatraining.jobfinder.jobListing.api.JobListingDto;
 import ro.javatraining.jobfinder.jobListing.api.JobListingManagement;
 
-import java.util.List;
+import java.util.Collection;
+
 @Service
 @RequiredArgsConstructor
 public class JobListingManagementImpl implements JobListingManagement {
@@ -16,26 +17,35 @@ public class JobListingManagementImpl implements JobListingManagement {
 
     @Override
     public Long create(JobListingDto jobListingDto) {
-        return null;
+        final JobListing jobListing = modelMapper.map(jobListingDto, JobListing.class);
+        jobListingDto.setId(null);
+        return jobListingRepository.save(jobListing).getId();
     }
 
     @Override
     public JobListingDto getById(Long id) {
-        return null;
+        final JobListing jobListing = jobListingRepository.findById(id).orElseThrow();
+        return modelMapper.map(jobListing, JobListingDto.class);
     }
 
     @Override
-    public List<JobListingDto> getAll() {
-        return null;
+    public Collection<JobListingDto> getAll() {
+        return jobListingRepository.findAll().stream().map(jobListing -> modelMapper.map(jobListing, JobListingDto.class)).toList();
     }
 
     @Override
     public void update(Long id, JobListingDto jobListingDto) {
 
+        final JobListing jobListing = jobListingRepository.findById(id).orElseThrow();
+        modelMapper.map(jobListingDto, jobListing);
+        jobListing.setId(id);
+        jobListingRepository.save(jobListing);
     }
 
     @Override
     public void delete(Long id) {
+        final JobListing jobListing = jobListingRepository.findById(id).orElseThrow();
+        jobListingRepository.delete(jobListing);
 
     }
 }

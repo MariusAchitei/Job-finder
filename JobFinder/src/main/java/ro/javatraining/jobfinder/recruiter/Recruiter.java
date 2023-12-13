@@ -5,7 +5,7 @@ import lombok.Data;
 import ro.javatraining.jobfinder.user.User;
 
 @Entity
-@Table(name = "recruiter")
+@Table(name = "recruiters")
 @Data
 public class Recruiter {
 
