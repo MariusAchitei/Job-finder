@@ -5,8 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import ro.javatraining.jobfinder.jobCategory.JobCategory;
-import ro.javatraining.jobfinder.recruiter.Recruiter;
 
 import java.util.Date;
 
@@ -17,7 +15,7 @@ import java.util.Date;
 public class JobListingDto {
     private Long id;
 
-    private Recruiter recruiter;
+    private Long recruiterId;
     @NotBlank
     private String title;
     @NotBlank
@@ -29,6 +27,6 @@ public class JobListingDto {
 
     private Date postedDate;
     private Date deadline;
-    private JobCategory jobCategory;
+    private Long jobCategoryId;
 
 }

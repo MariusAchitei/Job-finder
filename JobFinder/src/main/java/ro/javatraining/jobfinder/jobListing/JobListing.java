@@ -2,15 +2,13 @@ package ro.javatraining.jobfinder.jobListing;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import ro.javatraining.jobfinder.jobCategory.JobCategory;
-import ro.javatraining.jobfinder.recruiter.Recruiter;
 
 import java.util.Date;
 
 @Entity
 @Data
 @Table(name = "job_listing")
-public class JobListing {
+class JobListing {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")

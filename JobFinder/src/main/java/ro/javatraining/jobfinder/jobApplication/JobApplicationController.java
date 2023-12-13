@@ -3,15 +3,13 @@ package ro.javatraining.jobfinder.jobApplication;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
-import ro.javatraining.jobfinder.jobApplicant.api.JobApplicantDto;
-import ro.javatraining.jobfinder.jobApplicant.api.JobApplicantManagement;
 import ro.javatraining.jobfinder.jobApplication.api.JobApplicationDto;
 import ro.javatraining.jobfinder.jobApplication.api.JobApplicationManagement;
 
 import java.util.List;
 
 @Controller
-@RequestMapping("/jobApplication")
+@RequestMapping("jobApplication")
 public class JobApplicationController {
     @Autowired
     JobApplicationManagement jobApplicationManagement;

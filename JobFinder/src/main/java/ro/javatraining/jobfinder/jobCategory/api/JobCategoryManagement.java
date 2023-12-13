@@ -1,7 +1,5 @@
 package ro.javatraining.jobfinder.jobCategory.api;
 
-import ro.javatraining.jobfinder.jobApplicant.api.JobApplicantDto;
-
 import java.util.List;
 
 public interface JobCategoryManagement {

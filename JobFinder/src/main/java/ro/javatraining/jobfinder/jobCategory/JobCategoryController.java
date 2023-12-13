@@ -1,19 +1,18 @@
 package ro.javatraining.jobfinder.jobCategory;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
+import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import ro.javatraining.jobfinder.jobCategory.api.JobCategoryDto;
 import ro.javatraining.jobfinder.jobCategory.api.JobCategoryManagement;
 
 import java.util.List;
 
-@Controller
-@RequestMapping("/jobCategory")
+@RequiredArgsConstructor
+@RestController
+@RequestMapping("jobCategory")
 public class JobCategoryController {
 
-    @Autowired
-    JobCategoryManagement jobCategoryManagement;
+    private final JobCategoryManagement jobCategoryManagement;
 
     @GetMapping("")
     public List<JobCategoryDto> getAll() {

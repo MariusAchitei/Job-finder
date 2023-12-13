@@ -5,9 +5,9 @@ import lombok.Data;
 import ro.javatraining.jobfinder.user.User;
 
 @Entity
-@Table(name = "job_applicants")
+@Table(name = "job_applicant")
 @Data
-public class JobApplicant {
+class JobApplicant {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

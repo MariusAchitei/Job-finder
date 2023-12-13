@@ -7,7 +7,7 @@ import ro.javatraining.jobfinder.user.User;
 @Entity
 @Table(name = "recruiters")
 @Data
-public class Recruiter {
+class Recruiter {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -22,9 +22,6 @@ public class Recruiter {
     @Column(name = "contact_info", nullable = false)
     private String contactInfo;
 
-    public Recruiter() {
-
-    }
 }
     
 

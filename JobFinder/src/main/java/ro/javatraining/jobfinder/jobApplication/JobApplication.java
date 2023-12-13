@@ -3,15 +3,13 @@ package ro.javatraining.jobfinder.jobApplication;
 import jakarta.persistence.*;
 import lombok.Data;
 import ro.javatraining.jobfinder.core.utils.JobApplicationStatus;
-import ro.javatraining.jobfinder.jobApplicant.JobApplicant;
-import ro.javatraining.jobfinder.jobListing.JobListing;
 
 import java.util.Date;
 
 @Entity
 @Data
 @Table(name = "job_application")
-public class JobApplication {
+class JobApplication {
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
         private Long id;
