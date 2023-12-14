@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class JobCategoryDto {
-    private long id;
+//    private long id;
     private String name;
     private String description;
 }
