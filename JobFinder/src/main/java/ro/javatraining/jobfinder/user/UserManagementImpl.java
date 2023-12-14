@@ -31,7 +31,7 @@ public class UserManagementImpl implements UserManagement {
     public UserDto get(Long id) {
         return userRepository.findById(id)
                 .map(user -> modelMapper.map(user, UserDto.class))
-                .orElse(null);
+                .orElseThrow(() -> new RuntimeException("User not found"));
     }
 
     @Override
