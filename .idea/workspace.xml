@@ -5,24 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d9e2d93-bb81-42bf-a515-4927c3cba79f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_bean_validators_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_boot_starter_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_data_rest_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_oas_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_springfox_springfox_swagger_ui_3_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_models_2_1_2.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_api_0_11_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_impl_0_11_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_jackson_0_11_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/security/JwtAuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/security/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/users/UserInfoDetails.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JobFinder/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/SpringFoxConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/core/ApplicationExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobApplicants/JobApplicant.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobApplicants/JobApplicant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobApplications/JobApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobApplications/JobApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobCategories/JobCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobCategories/JobCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobListings/JobListing.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobListings/JobListing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/recruiters/Recruiter.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/recruiters/Recruiter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/SpringFoxConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/SpringFoxConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobApplicants/JobApplicantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobApplicants/JobApplicantController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobApplicants/JobApplicantManagementImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobApplicants/JobApplicantManagementImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobApplicants/api/JobApplicantDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobApplicants/api/JobApplicantDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/users/UserManagementImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/users/UserManagementImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/users/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/users/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/users/api/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/users/api/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/users/api/UserManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/users/api/UserManagement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/.facultate/Proiect munca/Job-finder/JobFinder/src/main/java",
+    "last_opened_file_path": "D:/.facultate/Proiect munca/Job-finder/JobFinder/src/main/java/ro/javatraining/jobfinder",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,7 +78,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\.facultate\Proiect munca\Job-finder\JobFinder\src\main\java\ro\javatraining\jobfinder" />
       <recent name="D:\.facultate\Proiect munca\Job-finder\JobFinder\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\.facultate\Proiect munca\Job-finder\JobFinder\src\main\java\ro\javatraining\jobfinder" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ro.javatraining.jobfinder.security" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ro.javatraining.jobfinder.security" />
     </key>
   </component>
   <component name="RunManager">
@@ -112,10 +122,16 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.ClassNotFoundException" package="java.lang" />
-          <option name="timeStamp" value="3" />
-        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobApplicants/JobApplicantController.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobApplicants/JobApplicantManagementImpl.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

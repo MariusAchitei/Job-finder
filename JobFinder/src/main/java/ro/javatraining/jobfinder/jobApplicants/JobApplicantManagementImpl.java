@@ -33,7 +33,7 @@ public class JobApplicantManagementImpl implements JobApplicantManagement {
     @Override
     public List<JobApplicantDto> getAll() {
         return jobApplicantRepository.findAll().stream()
-                .map(user -> modelMapper.map(user, JobApplicantDto.class))
+                .map(jobApplicant -> modelMapper.map(jobApplicant, JobApplicantDto.class))
                 .toList();
     }
 

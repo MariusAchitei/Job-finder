@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import ro.javatraining.jobfinder.jobApplicants.api.JobApplicantDto;
 import ro.javatraining.jobfinder.jobApplicants.api.JobApplicantManagement;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Controller
@@ -17,7 +18,9 @@ public class JobApplicantController {
 
     @GetMapping("")
     public List<JobApplicantDto> getAll() {
-        return jobApplicantManagement.getAll();
+        var jobApplicants = jobApplicantManagement.getAll();
+        return new ArrayList<JobApplicantDto>();
+//        return jobApplicants;
     }
 
     @GetMapping("/{id}")

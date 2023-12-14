@@ -1,7 +1,12 @@
 package ro.javatraining.jobfinder.users;
 
+import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import ro.javatraining.jobfinder.users.api.RegisterUserDto;
@@ -9,12 +14,16 @@ import ro.javatraining.jobfinder.users.api.UserDto;
 import ro.javatraining.jobfinder.users.api.UserManagement;
 
 import java.util.Collection;
+import java.util.Optional;
 
 @Service
-@RequiredArgsConstructor
-public class UserManagementImpl implements UserManagement {
-    private final UserRepository userRepository;
+//@RequiredArgsConstructor
+//@NoArgsConstructor
+public class UserManagementImpl implements UserManagement, UserDetailsService {
+    @Autowired
+    private UserRepository userRepository;
     private final BCryptPasswordEncoder bCryptPasswordEncoder = new BCryptPasswordEncoder();
+    @Autowired
     private final ModelMapper modelMapper = new ModelMapper();
 
 
@@ -61,5 +70,30 @@ public class UserManagementImpl implements UserManagement {
     @Override
     public void delete(Long id) {
         userRepository.deleteById(id);
+    }
+
+    @Override
+    public void getByUsername(String username) {
+        Optional<User> user = userRepository.findByUsername(username);
+
+        user
+            .map(u -> modelMapper.map(u, UserDto.class))
+            .orElseThrow(() -> new UsernameNotFoundException("User not found " + username));
+    }
+
+    @Override
+    public UserDetails getUserDetailsByUsername(String username) {
+        Optional<User> user = userRepository.findByUsername(username);
+        return user
+            .map(u -> new UserInfoDetails(u))
+            .orElseThrow(() -> new UsernameNotFoundException("User not found " + username));
+    }
+
+    @Override
+    public UserDetails loadUserByUsername(String username) {
+        Optional<User> user = userRepository.findByUsername(username);
+        return user
+                .map(u -> new UserInfoDetails(u))
+                .orElseThrow(() -> new UsernameNotFoundException("User not found " + username));
     }
 }

@@ -2,6 +2,7 @@ package ro.javatraining.jobfinder.users.api;
 
 import jakarta.validation.constraints.Email;
 import lombok.*;
+import ro.javatraining.jobfinder.users.User;
 
 @Data
 @Builder
@@ -16,4 +17,7 @@ public class UserDto {
     private String email;
     @NonNull
     private String role;
+
+    public UserDto(User user) {
+    }
 }

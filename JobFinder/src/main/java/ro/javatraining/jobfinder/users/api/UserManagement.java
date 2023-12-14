@@ -1,5 +1,6 @@
 package ro.javatraining.jobfinder.users.api;
 
+import org.springframework.security.core.userdetails.UserDetails;
 import ro.javatraining.jobfinder.users.api.RegisterUserDto;
 import ro.javatraining.jobfinder.users.api.UserDto;
 
@@ -12,4 +13,7 @@ public interface UserManagement {
     void update(Long id, UserDto dto);
     void delete(Long id);
     void resetPassword(Long id, String newPassword);
+
+    void getByUsername(String username);
+    UserDetails getUserDetailsByUsername(String username);
 }
