@@ -1,6 +1,7 @@
 package ro.javatraining.jobfinder.jobCategory;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import ro.javatraining.jobfinder.jobCategory.api.JobCategoryDto;
 import ro.javatraining.jobfinder.jobCategory.api.JobCategoryManagement;
@@ -26,6 +27,7 @@ public class JobCategoryController {
     }
 
     @PostMapping("")
+    @PreAuthorize("hasAuthority('ROLE_ADMIN')")
     public Long create(JobCategoryDto jobCategoryDto) {
         return jobCategoryManagement.create(jobCategoryDto);
     }
