@@ -5,23 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d9e2d93-bb81-42bf-a515-4927c3cba79f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_3_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_6_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_6_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_6_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_6_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/security/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/security/JwtAuthFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/security/JwtService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/security/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/security/UserInfoDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/security/UserSecurityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/security/dto/AuthRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/OpenApiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_15_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_annotations_jakarta_2_2_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_core_jakarta_2_2_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_models_jakarta_2_2_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_13_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springdoc_springdoc_openapi_starter_common_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springdoc_springdoc_openapi_starter_webmvc_api_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springdoc_springdoc_openapi_starter_webmvc_ui_2_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_swagger_ui_5_2_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobFinder/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/SpringFoxConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobCategory/api/JobCategoryDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/jobCategory/api/JobCategoryDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/user/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/JobFinder/src/main/java/ro/javatraining/jobfinder/security/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,27 +50,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/.facultate/Proiect munca/Job-finder/JobFinder/src/main/java/ro/javatraining/jobfinder/core/utils",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "f6f51c826d7176875057554eef26f378",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/.facultate/Proiect munca/Job-finder/JobFinder/src/main/java/ro/javatraining/jobfinder/core/utils&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;f6f51c826d7176875057554eef26f378&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\.facultate\Proiect munca\Job-finder\JobFinder\src\main\java\ro\javatraining\jobfinder\core\utils" />
@@ -113,6 +109,7 @@
       <workItem from="1702243354199" duration="2062000" />
       <workItem from="1702245439966" duration="2129000" />
       <workItem from="1702327665521" duration="7176000" />
+      <workItem from="1702528818989" duration="638000" />
     </task>
     <servers />
   </component>
