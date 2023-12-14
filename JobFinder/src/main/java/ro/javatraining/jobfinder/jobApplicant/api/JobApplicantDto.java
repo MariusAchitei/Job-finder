@@ -10,9 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class JobApplicantDto {
-
-    private Long applicantID;
-    private Long userID;
+    private Long userId;
     private String firstName;
     private String lastName;
     private String dateOfBirth;
