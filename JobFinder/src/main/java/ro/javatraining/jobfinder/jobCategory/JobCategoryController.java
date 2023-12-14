@@ -4,6 +4,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import ro.javatraining.jobfinder.jobCategory.api.JobCategoryDto;
 import ro.javatraining.jobfinder.jobCategory.api.JobCategoryManagement;
+import ro.javatraining.jobfinder.jobCategory.api.JobCategoryNotFound;
 
 import java.util.List;
 
@@ -20,7 +21,7 @@ public class JobCategoryController {
     }
 
     @GetMapping("/{id}")
-    public JobCategoryDto getById(@PathVariable Long id) {
+    public JobCategoryDto getById(@PathVariable Long id) throws JobCategoryNotFound {
         return jobCategoryManagement.getById(id);
     }
 
@@ -30,12 +31,12 @@ public class JobCategoryController {
     }
 
     @PutMapping("/{id}")
-    public void update(@PathVariable Long id, JobCategoryDto jobCategoryDto) {
+    public void update(@PathVariable Long id, JobCategoryDto jobCategoryDto) throws JobCategoryNotFound {
         jobCategoryManagement.update(id, jobCategoryDto);
     }
 
     @DeleteMapping("/{id}")
-    public void delete(@PathVariable Long id) {
+    public void delete(@PathVariable Long id) throws JobCategoryNotFound {
         jobCategoryManagement.delete(id);
     }
 }
