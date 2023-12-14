@@ -12,7 +12,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class RecruiterDto {
 
-    private Long id;
     @NotBlank
     private String companyName;
     @NotBlank

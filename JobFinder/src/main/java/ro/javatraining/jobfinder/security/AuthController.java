@@ -20,10 +20,7 @@ public class AuthController {
     private JwtService jwtService;
     @PostMapping("/generateToken")
     public String authenticateAndGetToken(@RequestBody AuthRequestDto authRequest) {
-//        var authRequest = new AuthRequestDto();
-        authRequest.setUsername("marius");
-        authRequest.setPassword("marius");
-        System.out.println("fpikhnsdipugfvbsdiu;fgbi;usdonb+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n++++++++++++++++++++++++++++++++++++++\n+++++++++++++++++++++++++");
+
         Authentication authentication = authenticationManager
                 .authenticate(new UsernamePasswordAuthenticationToken(authRequest.getUsername(), authRequest.getPassword()));
         if (authentication.isAuthenticated()) {
